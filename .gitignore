@@ -1,0 +1,27 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+
+# React / Node
+node_modules/
+dist/
+
+# Local data
+*.csv
+*.sqlite
+*.db
+*.sql
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
